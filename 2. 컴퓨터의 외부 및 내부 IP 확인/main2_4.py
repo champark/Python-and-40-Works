@@ -10,4 +10,4 @@ out_addr = re.search(r'IP Address : (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})', req.t
 
 # 내부, 외부 IP를 한 번에 출력
 print("내부 IP : ", in_addr.getsockname()[0])
-print("외부 IP : ", out_addr)
+print("외부 IP : ", out_addr) 
